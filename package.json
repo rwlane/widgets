@@ -1,16 +1,16 @@
 {
-  "name": "widgets",
-  "version": "0.0.1-rc.1",
+  "name": "widgets-beginner",
+  "version": "0.0.1-rc.2",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/widgets.umd.cjs",
-  "module": "./dist/widgets.js",
+  "main": "./dist/widgets-beginner.umd.cjs",
+  "module": "./dist/widgets-beginner.js",
   "export": {
     ".": {
-      "import": "./dist/widgets.js",
-      "require": "./dist/widgets.umd.cjs"
+      "import": "./dist/widgets-beginner.js",
+      "require": "./dist/widgets-beginner.umd.cjs"
     }
   },
   "scripts": {
@@ -35,6 +35,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rwlane/widgets.git"
+    "url": "git+https://github.com/rwlane/widgets-beginner.git"
   }
 }

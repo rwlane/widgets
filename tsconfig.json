@@ -6,7 +6,7 @@
     "allowJs": false,
     "skipLibCheck": true,
     "paths": {
-      "widgets": ["./lib/index.tsx"]
+      "widgets-beginner": ["./lib/index.tsx"]
     },
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
